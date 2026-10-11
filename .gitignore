@@ -1,0 +1,15 @@
+# Universal Modder (reference and tools)
+universal-modder/
+
+# Binaries and caches
+*.log
+*.tmp
+*.db
+*.db-journal
+.venv/
+__pycache__/
+
+# OS artifacts
+Thumbs.db
+desktop.ini
+.DS_Store

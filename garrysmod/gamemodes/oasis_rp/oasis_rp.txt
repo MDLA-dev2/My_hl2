@@ -1,0 +1,7 @@
+"oasis_rp"
+{
+	"base"		"sandbox"
+	"title"		"Oasis RP"
+	"maps"		"^rp_"
+	"menusystem"	"1"
+}
