@@ -12,4 +12,5 @@ __pycache__/
 # OS artifacts
 Thumbs.db
 desktop.ini
-.DS_Store
+# Temporary asset downloads
+temp_assets/
