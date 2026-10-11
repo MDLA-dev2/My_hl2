@@ -12,7 +12,10 @@ Act as a senior Garry's Mod GLua developer and game UI/UX designer. Build polish
 
 ## Technical requirements
 - Use native Garry's Mod GLua, VGUI/Derma and rendering APIs.
-- Verify API usage against https://wiki.facepunch.com/gmod.
+- Verify API usage against https://wiki.facepunch.com/gmod and the local references in `docs/glua-api.md`.
+- Перед созданием или изменением UI обязательно обращаться к соответствующим справочникам (`docs/glua-api.md`, `docs/design-system.md`, `docs/ui-assets.md`).
+- Искать подходящие готовые ассеты в проверенных источниках до написания сложной графики или отрисовки примитивов вручную.
+- Строго проверять существование файлов, корректность путей материалов и совместимость API перед вызовом в коде.
 - Never invent functions or assume that browser CSS works in native VGUI.
 - Keep rendering efficient. Cache materials and fonts, avoid unnecessary per-frame allocations, and clean up hooks and panels correctly.
 - Preserve existing gamemode logic, networking, permissions and functionality.
