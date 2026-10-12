@@ -17,5 +17,8 @@ temp_assets/
 
 # Deploy credentials and local secrets
 deploy_config.json
+tools/deploy_credentials.json
 tools/deploy_credentials.ps1
+tools/sftp_batch.txt
+tools/askpass.bat
 temp_assets/askpass.bat
