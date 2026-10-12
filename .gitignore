@@ -14,3 +14,8 @@ Thumbs.db
 desktop.ini
 # Temporary asset downloads
 temp_assets/
+
+# Deploy credentials and local secrets
+deploy_config.json
+tools/deploy_credentials.ps1
+temp_assets/askpass.bat
